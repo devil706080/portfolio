@@ -16,14 +16,6 @@ import { Particles } from "@/components/Particles";
 
 export const Route = createFileRoute("/")({
   component: Portfolio,
-  head: () => ({
-    meta: [
-      { title: "Anshika Tyagi — Frontend Developer | React · JavaScript · Firebase" },
-      { name: "description", content: "Portfolio of Anshika Tyagi, a Frontend Developer crafting cinematic, responsive web experiences with React, Tailwind CSS and Firebase." },
-      { property: "og:title", content: "Anshika Tyagi — Frontend Developer" },
-      { property: "og:description", content: "Cinematic, futuristic portfolio. React · JavaScript · Firebase · Tailwind CSS." },
-    ],
-  }),
 });
 
 // ---------- DATA EXTRACTED FROM RESUME ----------
