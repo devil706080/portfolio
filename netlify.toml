@@ -1,0 +1,17 @@
+[build]
+  command = "npm run build"
+  publish = "dist/client"
+
+[functions]
+  directory = "netlify/functions"
+
+[[redirects]]
+  from = "/*"
+  to = "/.netlify/functions/server"
+  status = 200
+  force = false
+
+[dev]
+  command = "npm run dev"
+  port = 3000
+  targetPort = 3000
